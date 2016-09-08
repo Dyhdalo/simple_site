@@ -1,0 +1,135 @@
+body{
+	margin: 1%;
+	padding: 1%;
+}
+
+header{
+	background: #00FF00 url(../images/flywheel.jpg) no-repeat;
+	background-size: cover;
+	padding: 2px 2px 20px 15px;
+}
+
+h1{
+	text-align: center;
+	color: #F0FFF0;
+	font-size: 250%;
+}
+
+h2{
+	color: #8B4513;
+}
+
+h1, h2{
+	font-variant: small-caps;
+}
+
+.left, .right{
+	margin-right: 2%;
+	display:inline-block;
+	float:left;
+}
+
+.left{
+	background: #32CD32;
+	width: 30%;
+	height: 100vh;
+}
+
+.right{
+	width: 60%;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	width: 18%;
+	padding: 12px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-o-border-radius: 25px;
+	border-radius: 25px;
+	margin: 15px;
+	color: #4169E1;
+	background: #C0C0C0;
+	opacity: 0.7;
+	text-align: center;
+}
+
+a.active{
+	background: #4169E1;
+	color: #DAA520;
+	opacity: 1;
+}
+
+nav a:hover{
+	opacity: 1;
+}
+
+img{
+	display: block;
+	width: 250px;
+	height: 100px;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: #8A2BE2;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+table{
+	font-family: Verdana, Georgia, Serif;
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 150%;
+	width: 75%;
+	margin: 0 auto;
+}
+
+th{
+	background: -webkit-linear-gradient(#006400, #7FFF00);
+    background: -o-linear-gradient(#006400, #7FFF00);
+    background: -moz-linear-gradient(#006400, #7FFF00);
+    background: linear-gradient(#006400, #7FFF00);
+	border-style: groove;
+	border-width: 5px 5px 10px 5px;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-o-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	color: #F0FFF0;
+}
+
+tr{
+	opacity: 0.8;
+}
+
+tr:hover{
+	opacity: 1;
+}
+
+th:first-child{
+	text-align: left;
+}
+
+td:first-child{
+	text-align: left;
+}
+
+td:first-child+td{
+	text-align: center;
+}
+
+td:last-child{
+	text-align: center;
+}
+
+td{
+	padding: 3px;
+	color: #1E90FF;
+	background-color: #ADFF2F;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	text-shadow: 1px 1px #8A2BE2;
+}
